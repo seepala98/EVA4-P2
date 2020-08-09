@@ -15,7 +15,7 @@ https://xvosj2koa5.execute-api.ap-south-1.amazonaws.com/dev/classify
 
 * colab notebook where preprocessing is performed : https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/pre_processing_e4p2s2%20(1).ipynb 
 
-* post deletion of duplicate images left with these images with following counts : 
+* post deletion of duplicate images left with these 19,127 images with following counts : 
 
   |  objects | count  |
   |---|---|
