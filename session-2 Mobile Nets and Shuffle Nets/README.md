@@ -73,6 +73,9 @@ https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and
 * winged drone
 ![winged drone misclassified Images](https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/small_drone_missclassified.png)
 
+* small drone
+![small drone misclassified Images](https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/small_drone_missclassified.png)
+
 ## Result : 
 
 * deployed the model to lambda function 
