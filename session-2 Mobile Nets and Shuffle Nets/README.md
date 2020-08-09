@@ -98,3 +98,7 @@ https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and
 ## winged drone : 
 
 <img src="https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/winged_drone.jpeg" width="425"/><img src="https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/winged_drone_3_insomia.png" width="1000"/>
+
+## small drone:
+
+<img src="https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/small_drone.jpg" width="425"/><img src="https://github.com/seepala98/EVA4-P2/blob/master/session-2%20Mobile%20Nets%20and%20Shuffle%20Nets/src/Images/small_drone_2_insomia.png" width="1000"/>
