@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>EVA-4-P2</title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:2%;">
+			<div class="large-12 cell">
+				<h4 id='imageClassifiers'>Image Classifiers</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="resnet34FileUpload">Please choose image file you want to classify.</label>
+				<input type="file" id="resnet34FileUpload">
+			</div>
+			<p>Imagenet classes</p>
+			<div class="large-8 cell">
+				<input type="button" id="btnResNetUpload" onclick="uploadAndClassifyImage('https://mged0o5irb.execute-api.ap-south-1.amazonaws.com/dev/classify')" class="button" value="Classify Image - Resnet34">
+			</div>
+			</br>
+			<p>{"0": ["Flying_Birds"], "1": ["Large_Quadcopter"], "2": ["Small_Quadcopter"], "3": ["Winged_Drone"]}</p>
+			<div class="large-8 cell">
+				<input type="button" id="btnResNetUpload" onclick="uploadAndClassifyImage('https://xvosj2koa5.execute-api.ap-south-1.amazonaws.com/dev/classify')" class="button" value="Classify Image - MobileNet">
+			</div>
+			</br>
+			<p> Face alignment</p>
+			<div class="large-8 cell">
+				<input type="button" id="btnResNetUpload" onclick="uploadImagealign('https://xmbnfi5xqk.execute-api.ap-south-1.amazonaws.com/dev/align')" class="button" value="Face Detection">
+			</div>
+			<h2>Result:</h2>
+			<p id="result"></p>
+			</div>
+			<div>
+				<img id="ItemPreview" src="">
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/upload.js"></script>
+	<script src="js/upload_align.js"></script>
+</html>
