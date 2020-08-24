@@ -8,7 +8,7 @@
 4.  Share the link to "that" single page.
 5.  Share the link to GitHub repo.
 
-## Solution
+## Datasets and Training
 
 `160x160` Face Aligned dataset:
 [https://drive.google.com/file/d/1ECSIlNXxrQx4XE1Qz8mPezuSZEBFmw65/view?usp=sharing](https://drive.google.com/file/d/1ECSIlNXxrQx4XE1Qz8mPezuSZEBFmw65/view?usp=sharing)
