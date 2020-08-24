@@ -11,4 +11,4 @@
 
 ## face_swap link :
 
-[https://deeplearnjourney.s3.ap-south-1.amazonaws.com/face_align/index.html](https://deeplearnjourney.s3.ap-south-1.amazonaws.com/face_align/index.html)
+[https://deeplearnjourney.s3.ap-south-1.amazonaws.com/face_swap/index.html](https://deeplearnjourney.s3.ap-south-1.amazonaws.com/face_swap/index.html)
