@@ -1,0 +1,64 @@
+service: s6-car
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+  environment:
+    S3_BUCKET: eva4p2-session1
+    MODEL_PATH: red_left_700_car_gan_generator.pt
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: arn:aws:s3:::eva4p2-session1/*
+  apiGateway:
+      binaryMediaTypes:
+        - "multipart/form-data"
+        - "*/*"
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pycache__/**
+    - .pytest_cache/**
+    - model/**
+
+functions:
+  generate_image:
+    handler: handler.generate_image
+    memorySize: 3008
+    timeout: 60
+    events:
+      - http:
+          path: generate_image
+          method: post
+          cors: true
+          
+plugins:
+  - serverless-python-requirements
