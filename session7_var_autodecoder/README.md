@@ -9,7 +9,7 @@
 - Notebooks: https://github.com/seepala98/EVA4-P2/tree/master/session7_var_autodecoder/notebooks
 
 ## API : 
-https://cqzkp9tfz7.execute-api.ap-south-1.amazonaws.com/dev/getcars 
+- https://cqzkp9tfz7.execute-api.ap-south-1.amazonaws.com/dev/getcars 
 
 ## Result
 
